@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Написать нам</title>
+    </head>
+    <link rel="stylesheet" href="css/style.css">
+<body>
+    <div id="wrapper">
+    <header class="clearfix">
+        <a id="logo" href="index.html"> <span class="yt"> Сайт </span> <i> Гуля</i></a>
+        <nav id="mainnav">
+        <ul>
+            <li><a id="link" href="uslugi.html">Услуги</a></li>
+            <li><a id="link" href="about.html">Про нас</a></li>
+            <li><a id="link" href="contacts.html">Контакты</a></li>
+            <li><a id="link" href="prikoli.html">Наши клиенты</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <div class="form_item">
+                <label for="topic">Тема</label><br>
+                <select name="topic" id="topic">
+                    <option value="1">Заказать услугу</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предложить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+            </div>
+
+            <div class="form_item">
+                <label for="name">Имя</label><br>
+                <input id="name" name="name" type="text" id = "contact-form input" placeholder="Введите имя"><br>
+            </div>
+
+            <div class="form_item">
+                <label for="email">Почта</label><br>
+                <input  name="email" id="e-mail" type="email" id="contact-form input" placeholder="Введите почту" required>
+            </div>
+            <div class="form_item">
+                <label for="tel">Телефон</label><br>
+                <input  name="tel" id="tel" type="tel" id="contact-form input" placeholder="Введите телефон" required>
+            </div>
+            
+
+            <div class="form_item">
+                <label for="comment">Комментарий</label><br>
+                <textarea name="comment" id="comment" tupe="comment" cols="33" rows="2" placeholder="Введите коментраий" required>
+                    
+                </textarea>
+            </div>
+            <div> <input type="submit"><input type="reset"></div>
+        </form>  
+       
+    </main>
+    </div>
+    <footer>
+        <section id="end">
+            <h2 id="size" class="footer__block">Написать нам&#9650;</h2> 
+            <h2 id="size" class="footer__block">&copy; Гуль</h2>
+
+            <div class="footer__icons">
+                <a href="https://ru-ru.facebook.com/"  target="_blank"><img src="img/facebook.png" alt="" class="footer__img"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="" class="footer__img"></a>
+                <a href="https://vk.com/" target="_blank"><img src="img/vk-social-logotype.png" alt="" class="footer__img"></a>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
